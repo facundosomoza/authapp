@@ -62,7 +62,7 @@ const ModalLogin = ({
 
       handleLoginSuccess(email);
     } catch (error) {
-      Swal.fire("You have not logged in succesfully");
+      Swal.fire("User or Password are not valid");
     }
   };
 
