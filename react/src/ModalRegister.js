@@ -54,9 +54,9 @@ const ModalRegister = ({ showModalRegister, handleHideRegister, app }) => {
 
       console.log(auth, email, password);
       const res = await createUserWithEmailAndPassword(auth, email, password);
-      Swal.fire("You have registered succesfully");
+      Swal.fire("You have succesfully registered");
     } catch (err) {
-      Swal.fire("You have not registered succesfully");
+      Swal.fire("User or Password are not valid");
     }
   };
 

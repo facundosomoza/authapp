@@ -34,11 +34,11 @@ const ModalLogin = ({
     console.log(email, password);
 
     if (email.trim() === "") {
-      setMessage("you must fill out the message");
+      setMessage("You must fill out the message");
       valid = false;
     }
     if (password.trim() === "") {
-      setMessage("you must fill out the message");
+      setMessage("You must fill out the message");
       valid = false;
     }
 
